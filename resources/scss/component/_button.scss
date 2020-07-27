@@ -13,22 +13,34 @@
   .default {
     background-color: $color-primary;
     &:hover {
-      background-color: green;
+      background-color: $color-primary-light
     }
   }
   
   .error {
     background-color: $error;
+    &:hover {
+      background-color: $error-light
+    }
   }
   
   .info {
     background-color: $info;
+    &:hover {
+      background-color: $info-light
+    }
   }
   
   .success {
     background-color: $success;
+    &:hover {
+      background-color: $success-light
+    }
   }
   
   .warning {
     background-color: $warning;
+    &:hover {
+      background-color: $warning-light
+    }
   }
