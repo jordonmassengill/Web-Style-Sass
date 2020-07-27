@@ -8,7 +8,14 @@
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: 5px;
-  }
+    transition: background-color 1s;
+    @include mq {
+        padding: 10px 30px;
+          .btn + .btn {
+          margin-left: 10px;
+        }
+      }
+    }
   
   .default {
     background-color: $color-primary;

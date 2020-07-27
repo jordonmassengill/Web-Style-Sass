@@ -6,3 +6,9 @@
     margin-right: auto;
     @content;
 }
+
+@mixin mq {
+    @media (min-width: $phone) {
+        @content;
+    }
+}

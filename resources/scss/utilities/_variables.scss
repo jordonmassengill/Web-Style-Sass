@@ -2,17 +2,17 @@
 $white: #fff;
 
 $color-primary: #51ddfc; // cyan
-$color-primary-light: lighten($color-primary, 10%); 
+$color-primary-light: lighten($color-primary, 15%); 
 $color-secondary: #58e1c1; // aqua
 
 $error: #e4757a;
-$error-light: lighten($error, 10%);
+$error-light: lighten($error, 15%);
 $info: #927bc1;
-$info-light: lighten($info, 10%);
+$info-light: lighten($info, 15%);
 $success: #63cc82;
-$success-light: lighten($success, 10%);
+$success-light: lighten($success, 15%);
 $warning: #fd7856;
-$warning-light: lighten($warning, 10%);
+$warning-light: lighten($warning, 15%);
 
 
 // Sizes

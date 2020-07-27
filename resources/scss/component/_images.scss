@@ -19,6 +19,8 @@
   
   .img-logo {
     @include centered;
+    @include mq {
+      margin-left: initial;
+      margin-right: initial;
+    }
   }
-
-  
