@@ -11,7 +11,7 @@
     transition: background-color 1s;
     @include mq {
         padding: 10px 30px;
-          .btn + .btn {
+          & + .btn {
           margin-left: 10px;
         }
       }
